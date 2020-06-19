@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Jquery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+		<!-- Compiled and minified CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+		<!-- Compiled and minified JavaScript -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+		<!-- Material Icons -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+		<!-- share this -->
+		<script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=5ec749facf0d2b0012b98af5&product=inline-share-buttons" async="async"></script>
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/common.css">
+		<link rel="stylesheet" href="css/plants.css">
+
+		<!--Let browser know website is optimized for mobile-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	</head>
+	<body>
+		<div class="container white padding top-60">
+			<div class="row">
+				<div class="col s12 center">
+					<a href="https://www.protectamerica.com">
+						<?xml version="1.0" encoding="utf-8"?>
+						<svg class="logo" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+							 viewBox="0 0 325 65" style="enable-background:new 0 0 325 65;" xml:space="preserve">
+							<style type="text/css">
+								.st0{fill:#1A1A1A;}
+							</style>
+							<g>
+								<g>
+									<g>
+										<g>
+											<g>
+												<path class="st0" d="M89.54,22.74c-1.38-1.21-3.24-1.82-5.53-1.82l-9.98,0l0,23.15l5.27,0l0-8.11l4.41,0
+													c2.51,0,4.48-0.58,5.85-1.72c1.38-1.15,2.09-3.13,2.09-5.87C91.63,25.85,90.93,23.96,89.54,22.74 M79.29,25.43l3.96,0
+													c1,0,1.78,0.23,2.32,0.68c0.52,0.44,0.79,1.21,0.79,2.29c0,1.08-0.27,1.88-0.8,2.36c-0.54,0.49-1.32,0.74-2.31,0.74l-3.96,0
+													L79.29,25.43z"/>
+												<path class="st0" d="M120.13,29.08c-1.4-1.76-3.55-2.65-6.38-2.65c-2.83,0-4.97,0.89-6.38,2.65c-1.39,1.74-2.09,3.82-2.09,6.18
+													c0,2.4,0.7,4.49,2.09,6.2c1.4,1.73,3.55,2.61,6.37,2.61c2.83,0,4.97-0.88,6.38-2.61c1.39-1.71,2.09-3.8,2.09-6.2
+													C122.22,32.9,121.52,30.82,120.13,29.08 M111.13,31.73c0.61-0.8,1.47-1.19,2.61-1.19c1.14,0,1.99,0.39,2.6,1.19
+													c0.62,0.81,0.93,2,0.93,3.54s-0.31,2.73-0.93,3.55c-0.61,0.8-1.46,1.19-2.6,1.19c-1.14,0-2-0.39-2.61-1.2
+													c-0.62-0.82-0.94-2.01-0.94-3.54C110.2,33.73,110.51,32.54,111.13,31.73"/>
+												<path class="st0" d="M196.06,21.12l-0.07-0.19l-5.75,0l-8.26,23.15l5.55,0l1.53-4.64l7.89,0l1.49,4.64l5.74,0L196.06,21.12z
+													 M195.52,34.97l-4.98,0l2.52-7.65L195.52,34.97z"/>
+												<path class="st0" d="M248.21,33.14c-0.2-1.3-0.65-2.46-1.33-3.44c-0.76-1.12-1.73-1.96-2.9-2.48c-1.15-0.52-2.47-0.78-3.9-0.78
+													c-2.43,0-4.43,0.78-5.96,2.32c-1.53,1.54-2.3,3.76-2.3,6.61c0,3.05,0.86,5.29,2.56,6.66c1.68,1.36,3.65,2.04,5.85,2.04
+													c2.67,0,4.77-0.82,6.26-2.44c0.96-1.03,1.52-2.06,1.64-3.07l0.04-0.31l-4.78,0l-0.08,0.15c-0.23,0.44-0.5,0.78-0.8,1.02
+													c-0.55,0.45-1.27,0.68-2.16,0.68c-0.85,0-1.58-0.19-2.17-0.56c-0.92-0.56-1.42-1.51-1.53-2.88l11.71,0l0-0.28
+													C248.37,34.98,248.32,33.89,248.21,33.14 M236.78,33.32c0.17-0.83,0.5-1.51,0.99-2.02c0.54-0.55,1.32-0.83,2.31-0.83
+													c0.92,0,1.7,0.27,2.31,0.8c0.55,0.47,0.88,1.16,1,2.05L236.78,33.32z"/>
+												<path class="st0" d="M151.65,33.14c-0.2-1.3-0.65-2.46-1.33-3.44c-0.76-1.12-1.73-1.96-2.9-2.48c-1.15-0.52-2.47-0.78-3.9-0.78
+													c-2.43,0-4.43,0.78-5.96,2.32c-1.53,1.54-2.3,3.76-2.3,6.61c0,3.05,0.86,5.29,2.56,6.66c1.68,1.36,3.65,2.04,5.85,2.04
+													c2.67,0,4.77-0.82,6.26-2.44c0.96-1.03,1.52-2.06,1.64-3.07l0.04-0.31l-4.78,0l-0.08,0.15c-0.23,0.44-0.5,0.78-0.8,1.02
+													c-0.55,0.45-1.27,0.68-2.16,0.68c-0.85,0-1.58-0.19-2.17-0.56c-0.92-0.56-1.42-1.51-1.53-2.88l11.71,0l0-0.28
+													C151.81,34.98,151.77,33.89,151.65,33.14 M140.22,33.32c0.17-0.83,0.5-1.51,0.99-2.02c0.54-0.55,1.32-0.83,2.31-0.83
+													c0.92,0,1.7,0.27,2.31,0.8c0.55,0.47,0.88,1.16,1,2.05L140.22,33.32z"/>
+												<path class="st0" d="M280.68,37.35c-0.08,0.79-0.32,1.44-0.7,1.93c-0.36,0.46-0.99,0.69-1.89,0.69c-1.28,0-2.13-0.6-2.59-1.83
+													c-0.26-0.68-0.4-1.61-0.4-2.75c0-1.2,0.13-2.17,0.4-2.89c0.48-1.3,1.35-1.93,2.66-1.93c0.91,0,1.56,0.28,1.98,0.85
+													c0.3,0.45,0.49,0.95,0.56,1.51l0.03,0.24l4.88,0l-0.03-0.31c-0.25-2.37-1.06-4.06-2.41-5.01c-1.33-0.94-3.06-1.41-5.14-1.41
+													c-2.46,0-4.41,0.81-5.81,2.41c-1.39,1.58-2.1,3.82-2.1,6.65c0,2.51,0.64,4.58,1.9,6.17c1.27,1.6,3.28,2.42,5.96,2.42
+													c2.68,0,4.74-0.97,6.11-2.89c0.86-1.18,1.34-2.46,1.45-3.79l0.02-0.3l-4.87,0L280.68,37.35z"/>
+												<path class="st0" d="M164.41,37.35c-0.08,0.79-0.32,1.44-0.7,1.93c-0.36,0.46-0.99,0.69-1.89,0.69c-1.28,0-2.12-0.6-2.59-1.83
+													c-0.26-0.68-0.4-1.61-0.4-2.75c0-1.2,0.13-2.17,0.4-2.89c0.48-1.3,1.35-1.93,2.66-1.93c0.91,0,1.56,0.28,1.98,0.85
+													c0.3,0.45,0.49,0.95,0.56,1.51l0.03,0.24l4.88,0l-0.03-0.31c-0.25-2.37-1.06-4.06-2.41-5.01c-1.33-0.94-3.06-1.41-5.14-1.41
+													c-2.46,0-4.41,0.81-5.81,2.41c-1.39,1.58-2.1,3.82-2.1,6.65c0,2.51,0.64,4.58,1.9,6.17c1.27,1.6,3.28,2.42,5.96,2.42
+													c2.68,0,4.74-0.97,6.11-2.89c0.86-1.18,1.34-2.46,1.45-3.79l0.02-0.3l-4.87,0L164.41,37.35z"/>
+												<path class="st0" d="M303.32,42.41c-0.23-0.11-0.4-0.24-0.51-0.4c-0.06-0.09-0.17-0.33-0.2-0.98
+													c-0.02-0.73-0.03-1.35-0.03-1.86l0-7.42c0-2.06-0.75-3.48-2.23-4.23c-1.42-0.72-3.05-1.08-4.87-1.08
+													c-2.81,0-4.83,0.76-6.01,2.25c-0.74,0.95-1.16,2.18-1.25,3.64l-0.02,0.3l4.62,0l0.04-0.24c0.09-0.57,0.27-1.03,0.54-1.35
+													c0.36-0.43,1.02-0.64,1.94-0.64c0.85,0,1.5,0.12,1.92,0.34c0.37,0.2,0.55,0.57,0.55,1.13c0,0.27-0.08,0.66-0.74,0.95
+													c-0.31,0.14-0.85,0.25-1.61,0.35l-1.45,0.18c-1.68,0.21-2.97,0.57-3.85,1.07c-1.63,0.94-2.46,2.48-2.46,4.56
+													c0,1.61,0.52,2.88,1.54,3.77c1.01,0.88,2.3,1.32,3.84,1.32c1.2,0,2.29-0.28,3.25-0.83c0.61-0.35,1.17-0.77,1.67-1.24
+													c0.02,0.14,0.04,0.28,0.06,0.41c0.05,0.3,0.15,0.63,0.28,0.98l0.07,0.18l5.08,0v-1.08L303.32,42.41z M297.8,35.9v1.09
+													c-0.03,1.31-0.4,2.22-1.09,2.7c-0.73,0.5-1.53,0.75-2.4,0.75c-0.52,0-0.95-0.14-1.31-0.42c-0.34-0.27-0.5-0.71-0.5-1.35
+													c0-0.71,0.28-1.22,0.86-1.55c0.36-0.21,0.99-0.39,1.86-0.55l0.96-0.18c0.5-0.09,0.89-0.19,1.18-0.3
+													C297.5,36.04,297.65,35.97,297.8,35.9"/>
+												<g>
+													<rect x="263.06" y="27.06" class="st0" width="5.01" height="17.01"/>
+													<rect x="263.06" y="20.93" class="st0" width="5.01" height="4.22"/>
+												</g>
+												<path class="st0" d="M180.34,30.41v-3.65l-2.71,0v-4.69l-4.9,0v4.69l-2.33,0l0,3.65l2.33,0l0,9.98c0,1.11,0.28,1.96,0.82,2.51
+													c0.75,0.79,2.04,1.17,3.92,1.17c0.17,0,0.33,0,0.51,0l2.35,0v-3.56v-0.39v0h-1.52c-0.66,0-1.19-0.53-1.19-1.19v-0.99h0l0-7.54
+													L180.34,30.41z"/>
+												<path class="st0" d="M133.19,30.41v-3.65l-2.71,0v-4.69l-4.9,0v4.69l-2.33,0l0,3.65l2.33,0l0,9.98c0,1.11,0.28,1.96,0.82,2.51
+													c0.75,0.79,2.04,1.17,3.92,1.17c0.17,0,0.33,0,0.51,0l2.35,0v-3.56v-0.39v0h-1.52c-0.66,0-1.19-0.53-1.19-1.19v-0.99h0v-7.54
+													L133.19,30.41z"/>
+												<path class="st0" d="M102.93,26.76c-2.03,0-3.95,1.53-4.48,3.48l0-3.18l-4.75,0l0,17.01l4.98,0l0-7.67
+													c0-1.28,0.16-2.24,0.47-2.83c0.55-1.05,1.63-2.16,3.28-2.16c0.13,0,1.82,0,1.82,0l0-4.65
+													C104.25,26.76,103.02,26.76,102.93,26.76z"/>
+												<path class="st0" d="M229.75,33.27c0-1.09-0.05-1.94-0.16-2.52c-0.17-0.89-0.51-1.65-1.01-2.27c-0.61-0.75-1.3-1.28-2.06-1.59
+													c-0.75-0.3-1.52-0.45-2.28-0.45c-1.14,0-2.2,0.24-3.14,0.72c-0.75,0.41-1.4,1.01-1.95,1.81c-0.33-0.64-0.77-1.19-1.31-1.63
+													c-0.83-0.59-1.93-0.9-3.26-0.9c-1.41,0-2.57,0.35-3.47,1.04c-0.35,0.27-0.7,0.64-1.07,1.13v-1.85l-4.82,0l0,17.32l5.01,0V33.74
+													c0-0.86,0.11-1.5,0.32-1.92c0.38-0.71,1.11-1.06,2.25-1.06c0.96,0,1.58,0.34,1.89,1.04c0.19,0.41,0.28,1.1,0.28,2.04v10.23
+													l4.97,0V33.85c0-0.7,0.11-1.31,0.33-1.79c0.41-0.9,1.14-1.33,2.23-1.33c0.93,0,1.55,0.33,1.88,1c0.18,0.37,0.28,0.85,0.28,1.43
+													v0.16v10.75l5.08,0l0-10.75h0L229.75,33.27z"/>
+												<path class="st0" d="M259.67,26.76c-2.03,0-3.95,1.53-4.48,3.48l0-3.18l-4.75,0l0,17.01l4.98,0V36.4
+													c0-1.28,0.16-2.24,0.47-2.83c0.55-1.05,1.63-2.16,3.28-2.16c0.13,0,1.82,0,1.82,0v-4.65
+													C260.99,26.76,259.76,26.76,259.67,26.76z"/>
+											</g>
+											<g>
+												<path class="st0" d="M307.6,20.93v0.75h-1.27v3.5h-0.89v-3.5h-1.28v-0.75H307.6z"/>
+												<polygon class="st0" points="311.67,20.93 311.22,20.93 310.45,24.27 309.68,20.93 309.21,20.93 308.39,20.93 308.39,25.18
+													309.21,25.18 309.21,22.3 309.21,21.86 310.01,25.18 310.87,25.18 311.67,21.86 311.67,22.3 311.67,25.18 312.5,25.18
+													312.5,20.93 					"/>
+											</g>
+										</g>
+									</g>
+								</g>
+								<path class="st0" d="M56.12,29.3L42.33,16.65c-0.56-0.51-1.47-0.51-2.03,0L26.51,29.3c-0.56,0.51-1.02,1.55-1.02,2.31v5.77
+									c0,0.76,0.62,1.38,1.38,1.38h2.91c0.76,0,1.38-0.62,1.38-1.38V34.1c0-0.76,0.46-1.8,1.02-2.31l8.12-7.45
+									c0.56-0.51,1.47-0.51,2.03,0l8.12,7.45c0.56,0.51,1.02,1.55,1.02,2.31v12.12c0,0.76-0.62,1.38-1.38,1.38h-5.89v-8.51h-5.67v8.51
+									H19.55c-0.76,0-1.38-0.62-1.38-1.38V29.57c0-0.76,0.46-1.8,1.02-2.31l8.12-7.45c0.56-0.51,1.47-0.51,2.03,0l0.55,0.51
+									c0.56,0.51,1.47,0.51,2.03-0.01l2.14-2c0.55-0.52,0.55-1.36-0.01-1.87l-4.71-4.32c-0.56-0.51-1.47-0.51-2.03,0L13.52,24.76
+									c-0.56,0.51-1.02,1.55-1.02,2.31V51.9c0,0.76,0.62,1.38,1.38,1.38h41.88c0.76,0,1.38-0.62,1.38-1.38V31.61
+									C57.14,30.85,56.68,29.81,56.12,29.3z"/>
+							</g>
+						</svg>
+
+					</a>
+				</div>
+				<div class="col m10 offset-m1 s12 padding l-top-100 l-bottom-100 m-top-60 m-bottom-60 s-top-40 s-bottom-40 center">
+					<img class="responsive-img center" src="images/plants-that-protect/title.png" alt="plants that protect property" />
+				</div>
+			</div>
+		</div>
+		<div class="row black brick padding l-bottom-100 m-bottom-60 s-bottom-40">
+			<div class="container introduction">
+				<div class="row">
+					<div class="col l6 offset-l3 m10 offset-m1 s12">
+						<p class="h2-heading white-text">Imagine you're a burglar...</p>
+						<p class="white-text">
+						It's midnight, you're dressed in dark attire, and you've stopped at the second home on the night's burglary spree. Everything seems natural, but something's not right. You climb a fence and hop down... right onto a thorny bush! You shout out. Within moments, the homeowners are flashing lights on you and your crime spree has ended.
+						</p>
+						<p class="white-text">
+						These homeowners didn't even need their security equipment to alert them, because their crime preventing plants kept the burglar from ever getting inside. This is what some homeowners don't realize&mdash; in addition to dogs, security equipment, and other tools, mother nature is one of the best defenses against crooks. Many plants have properties that deter criminals and prevent crime, especially when strategically planted.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container white padding l-top-100 m-top-60 s-top-20">
+			<div class="row color-bg padding l-top-100 l-bottom-100 m-top-60 m-bottom-60 s-top-40 s-bottom-40">
+				<div class="col l6 offset-l3 m10 offset-m1 s10 offset-s1">
+					<p class="h2-heading">How do plants prevent crime?</p>
+					<p class="h3-heading">Plants are natural barriers</p>
+					<p>
+					Defensive plants like spiny shrubs and trees have been used for centuries as defensive barriers. They can be used for hedging or something as practical as keeping in livestock. These types of plants can create a boundary that crooks will avoid in favor of an easier target. Many plants produce pretty flowers, so you'll something nice to look at instead of being fenced in with ugly foliage or barbed wire.
+					</p>
+					<p class="h3-heading">Study: Urban Crime Reduction</p>
+					<p>The U.S. Forest Service conducted <a href="http://www.mnn.com/health/healthy-spaces/blogs/want-fight-crime-city-plant-tree" target="_blank">two studies</a> that looked at urban space in Philadelphia, Baltimore, and Youngstown, Ohio. The results were promising for plants!</p>
+					<p>&mdash; Adding green space in crime-ridden areas helped to reduce the crime rate even while the crime rate in other areas increased.
+					</p>
+					<p>&mdash; One researcher believed that simply a larger presence of city vehicles doing maintenance at landscaped areas was enough to contribute to the drop in crime.
+					</p>
+					<p>
+					&mdash; Different types of green space produced different results: Grass maintained by contractors showed a decrease in property crime while areas with community maintained gardens saw a decrease in violent crime.
+					</p>
+					<p class="h3-heading">Study: Importance of Lawn Maintenance</p>
+					<p>
+					An urban planning and landscape study by <a href="https://www.fs.fed.us/nrs/pubs/jrnl/2016/nrs_2016_troy_001.pdf" target="_blank">Elsevier</a> found a significant relationship between crime rate and residential lawn care.
+					</p>
+					<p>&mdash; A reduction in crime was associated with homes with maintained lawns, sprinklers, garden hoses, and yard trees.</p>
+					<p>&mdash; An increase in crime was associated with homes that had litter, uncut lawns, or an overgrowth of small trees in front of or adjacent to the property.</p>
+					<p>&mdash; The study suggests that a well maintained yard gives criminals the impression that the home is cared for and that the homeowner, neighborhood, and residents are vigilant about upkeep, stopping crime, and reporting suspicious activity.</p>
+				</div>
+			</div>
+			<div class="row padding l-top-100 l-bottom-100 m-top-60 m-bottom-60 s-top-40 s-bottom-40">
+				<div class="col l6 offset-l3 m10 offset-m1 s12">
+					<p class="h2-heading">What plants should you use?</p>
+					<p>
+					<a href="http://www.telegraph.co.uk/news/newstopics/howaboutthat/9108641/The-30-plants-that-can-help-protect-your-home-against-burglary.html" target="_blank">The UK's Metropolitan Police</a> listed their top 30 crime deterrent plant choices. Here are their top 16 picks. Know that some plants may take physical maturity to reach their potential as home protectors. This could take up to five years, but be patient. They'll pay off in the long-run. <span class="bold">Remember:</span> always do research for your area before planting to avoid introducing an invasive species or otherwise harming your local ecosystem.
+					</p>
+				</div>
+			</div>
+			<!-- Carousel -->
+			<div class="row padding l-bottom-100 m-bottom-60 s-bottom-40">
+				<div class="col l8 offset-l2 m10 offset-m1 s12">
+					<div class="carousel carousel-slider" data-indicators="true">
+						<div class="carousel-item">
+							<div class="row">
+								<div class="col m6 s12">
+									<img src="images/plants-that-protect/slider1.png" alt="" class="responsive-img center">
+								</div>
+								<div class="col m5 offset-s1 s12 padding l-top-60 m-top-60 s-top-0">
+									<p class="no-margin h2-heading">Creeping Juniper</p>
+									<p class="no-margin italic">Juniperis horizontalis 'Wiltonii'</p>
+									<p class="no-margin bold">Shrub</p>
+									<ul class="browser-default no-padding">
+										<li>Known as 'Blue Rug' because it has long branches and its prostrate shape forms a flattened blue carpet</li>
+										<li>Thorny stem and foliage</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row">
+								<div class="col m6 s12">
+									<img src="images/plants-that-protect/slider2.png" alt="" class="responsive-img center">
+								</div>
+								<div class="col m5 offset-s1 s12 padding l-top-60 m-top-60 s-top-0">
+									<p class="no-margin h2-heading">Blue Spruce</p>
+									<p class="no-margin italic">Picea pungens 'Globosa'</p>
+									<p class="no-margin bold">Evergreen tree</p>
+									<ul class="browser-default no-padding">
+										<li>Rigid branches</li>
+										<li>Irregular dense, blue, spiky needles</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row">
+								<div class="col m6 s12">
+									<img src="images/plants-that-protect/slider3.png" alt="" class="responsive-img center">
+								</div>
+								<div class="col m5 offset-s1 s12 padding l-top-60 m-top-60 s-top-0">
+									<p class="no-margin h2-heading">Common Holly</p>
+									<p class="no-margin italic">Ilex aquifolium</p>
+									<p class="no-margin bold">Large evergreen shrub</p>
+									<ul class="browser-default no-padding">
+										<li>Spiked leaves</li>
+										<li>Large red berries on female plants</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row">
+								<div class="col m6 s12">
+									<img src="images/plants-that-protect/slider4.png" alt="" class="responsive-img center">
+								</div>
+								<div class="col m5 offset-s1 s12 padding l-top-60 m-top-60 s-top-0">
+									<p class="no-margin h2-heading">Giant Rhubarb</p>
+									<p class="no-margin italic">Gunnera manicata</p>
+									<p class="no-margin bold">Flowering Plant</p>
+									<ul class="browser-default no-padding">
+										<li>Giant leaves on stems</li>
+										<li>Abrasive foliage</li>
+										<li>Can grow up to 2.5 m high</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row">
+								<div class="col m6 s12">
+									<img src="images/plants-that-protect/slider5.png" alt="" class="responsive-img center">
+								</div>
+								<div class="col m5 offset-s1 s12 padding l-top-60 m-top-60 s-top-0">
+									<p class="no-margin h2-heading">Golden Bamboo</p>
+									<p class="no-margin italic">Phyllostachys aurea</p>
+									<p class="no-margin bold">Grass</p>
+									<ul class="browser-default no-padding">
+										<li>Hardy, very graceful, forming thick clumps of up to 3.5m high</li>
+										<li>Less invasive than other bamboos</li>
+										<li>Young shoots in the spring</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row">
+								<div class="col m6 s12">
+									<img src="images/plants-that-protect/slider6.png" alt="" class="responsive-img center">
+								</div>
+								<div class="col m5 offset-s1 s12 padding l-top-60 m-top-60 s-top-0">
+									<p class="no-margin h2-heading">Chinese Jujube</p>
+									<p class="no-margin italic">Zizyphus satvia</p>
+									<p class="no-margin bold">Tree</p>
+									<ul class="browser-default no-padding">
+										<li>Medium sized tree with very spiny pendulous branches</li>
+										<li>Leaves glossy bright green</li>
+										<li>Bears clusters of small yellow flosers</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row">
+								<div class="col m6 s12">
+									<img src="images/plants-that-protect/slider7.png" alt="" class="responsive-img center">
+								</div>
+								<div class="col m5 offset-s1 s12 padding l-top-60 m-top-60 s-top-0">
+									<p class="no-margin h2-heading">Firethorn</p>
+									<p class="no-margin italic">Pyracantha 'Orange Glow'</p>
+									<p class="no-margin bold">Evergreen Shrub</p>
+									<ul class="browser-default no-padding">
+										<li>White flowers in June, with bright orange-red berries</li>
+										<li>Thorny stem</li>
+										<li>Suitable for north or east-facing walls or as impenetrable hedging</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row">
+								<div class="col m6 s12">
+									<img src="images/plants-that-protect/slider8.png" alt="" class="responsive-img center">
+								</div>
+								<div class="col m5 offset-s1 s12 padding l-top-60 m-top-60 s-top-0">
+									<p class="no-margin h2-heading">Shrub Rose</p>
+									<p class="no-margin italic">Rosa 'Frau Dagmar Hastrup'</p>
+									<p class="no-margin bold">Shrub</p>
+									<ul class="browser-default no-padding">
+										<li>Excellent ground cover</li>
+										<li>Pale pink flowers</li>
+										<li>Very thorny stem</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row">
+								<div class="col m6 s12">
+									<img src="images/plants-that-protect/slider9.png" alt="" class="responsive-img center">
+								</div>
+								<div class="col m5 offset-s1 s12 padding l-top-60 m-top-60 s-top-0">
+									<p class="no-margin h2-heading">Pencil Christmas Tree</p>
+									<p class="no-margin italic">Picea abies 'Cupressina'</p>
+									<p class="no-margin bold">Evergreen tree</p>
+									<ul class="browser-default no-padding">
+										<li>Medium-sized tree of columnar habit, with ascending spiky branches</li>
+										<li>Attractive form with dense growth</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row">
+								<div class="col m6 s12">
+									<img src="images/plants-that-protect/slider10.png" alt="" class="responsive-img center">
+								</div>
+								<div class="col m5 offset-s1 s12 padding l-top-60 m-top-60 s-top-0">
+									<p class="no-margin h2-heading">Juniper</p>
+									<p class="no-margin italic">Juniperus x media 'Old Gold'</p>
+									<p class="no-margin bold">Shrub</p>
+									<ul class="browser-default no-padding">
+										<li>Golden-tipped, prickly foliage</li>
+										<li>Up to 2 feet height and 6 feet spread</li>
+										<li>Low growing with excellent ground cover</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row">
+								<div class="col m6 s12">
+									<img src="images/plants-that-protect/slider11.png" alt="" class="responsive-img center">
+								</div>
+								<div class="col m5 offset-s1 s12 padding l-top-60 m-top-60 s-top-0">
+									<p class="no-margin h2-heading">Purple Berberis</p>
+									<p class="no-margin italic">Berberis thunbergil 'Atropurpurea'</p>
+									<p class="no-margin bold">Shrub</p>
+									<ul class="browser-default no-padding">
+										<li>Rich purple foliage</li>
+										<li>Thorny stem</li>
+										<li>Medium-sized, deciduous</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row">
+								<div class="col m6 s12">
+									<img src="images/plants-that-protect/slider12.png" alt="" class="responsive-img center">
+								</div>
+								<div class="col m5 offset-s1 s12 padding l-top-60 m-top-60 s-top-0">
+									<p class="no-margin h2-heading">Mountain Pine</p>
+									<p class="no-margin italic">Pinus mugo 'Mughus'</p>
+									<p class="no-margin bold">Large shrub/small tree</p>
+									<ul class="browser-default no-padding">
+										<li>Very hardy</li>
+										<li>Long sharp needles of dense bushy habit. Leaves in pairs.</li>
+										<li>3.4cm long dark green cones</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row">
+								<div class="col m6 s12">
+									<img src="images/plants-that-protect/slider13.png" alt="" class="responsive-img center">
+								</div>
+								<div class="col m5 offset-s1 s12 padding l-top-60 m-top-60 s-top-0">
+									<p class="no-margin h2-heading">Hoops Colorado Blue Spruce</p>
+									<p class="no-margin italic">Picea pungens 'Hoopsii'</p>
+									<p class="no-margin bold">Evergreen Tree</p>
+									<ul class="browser-default no-padding">
+										<li>Small to medium-sized tree</li>
+										<li>Spiky stem with needles</li>
+										<li>Vividly glaucous blue leaves</li>
+									</ul>
+									<p class="italic">named "Blue Pine" from source</p>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row">
+								<div class="col m6 s12">
+									<img src="images/plants-that-protect/slider14.png" alt="" class="responsive-img center">
+								</div>
+								<div class="col m5 offset-s1 s12 padding l-top-60 m-top-60 s-top-0">
+									<p class="no-margin h2-heading">Oleaster</p>
+									<p class="no-margin italic">Elaeagnus angustifolia</p>
+									<p class="no-margin bold">Tree</p>
+									<ul class="browser-default no-padding">
+										<li>Smooth, dark brown branches that often bear spines</li>
+										<li>Edible, olive-shaped yellowish fruits, which are sweet but mealy</li>
+										<li>Hardy, wind resistant,  and tolerant of poor, dry sites and thuse useful in windbreak hedges.</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row">
+								<div class="col m6 s12">
+									<img src="images/plants-that-protect/slider15.png" alt="" class="responsive-img center">
+								</div>
+								<div class="col m5 offset-s1 s12 padding l-top-60 m-top-60 s-top-0">
+									<p class="no-margin h2-heading">Blackthorn (Sloe)</p>
+									<p class="no-margin italic">Prunus spinosa</p>
+									<p class="no-margin bold">Flowering plant</p>
+									<ul class="browser-default no-padding">
+										<li>Spiny, dense growth suitable for hedges</li>
+										<li>Numerous small eaves and white flowers</li>
+										<li>Fruit is used to flavor sloe gin</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row">
+								<div class="col m6 s12">
+									<img src="images/plants-that-protect/slider16.png" alt="" class="responsive-img center">
+								</div>
+								<div class="col m5 offset-s1 s12 padding l-top-60 m-top-60 s-top-0">
+									<p class="no-margin h2-heading">Fuscia-Flowered Gooseberry</p>
+									<p class="no-margin italic">Ribes speciosium</p>
+									<p class="no-margin bold">Shrub</p>
+									<ul class="browser-default no-padding">
+										<li>Spiny</li>
+										<li>Produces flowers in clusters of two or three</li>
+										<li>Extremely hardy and thrives in moist, heavy clay soil in cool, humid climates</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row padding l-bottom-100 m-bottom-60 s-bottom-40 hide-on-med-and-up">
+				<div class="col l6 offset-l3 m10 offset-m1 s12">
+					<p class="h2-heading">Where should you plant?</p>
+					<p class="h3-heading">Underneath a fence</p>
+					<p>Here the burglar will face thorns and foliage if they try to jump down a fence.</p>
+					<p class="h3-heading">Under window sills</p>
+					<p>Here the burglar can't reach the window or open it because of barrier plants.</p>
+					<p class="h3-heading">Be Strategic</p>
+					<p class="margin-bottom">Shrubs and barriers should be placed in positions that will impact the burglars ability to succeed at their goals, but should not impede you or your guests. Planting along a path can help indicate to guests where they should walk.
+					</p>
+					<h2 class="padding top-20 s-center-align">Upkeep and Maintenance = Plant Power</p>
+					<p class="h3-heading">Keep your yard maintained</p>
+					<p>Your plants can't be proper crime fighters if they're unkempt. A messy or overgrown garden could send the wrong message to burglars: that you don't care about your home.</p>
+					<p class="h3-heading">Watch out!</p>
+					<p>Plants and trees that get too large and imposing could provide a burglar a place to hide.</p>
+					<p class="h3-heading">Be careful</p>
+					<p>If you're working and maintaining your plants, wear the proper attire. This includes goggles, gloves, and other safety gear. The last thing you want is a thorn in the arm or eye.</p>
+				</div>
+			</div>
+			<!-- Modals -->
+			<div class="row yard padding l-bottom-100 m-bottom-60 s-bottom-40 hide-on-small-only">
+				<div class="col l6 offset-l3 m10 offset-m1 s12">
+					<p class="h2-heading">Where to plant them</p>
+					<p>Tap the buttons below to learn more about where to plant and how to make the best use of your botanical crime fighters.</p>
+				</div>
+				<div class="col s12">
+					<img src="images/plants-that-protect/yard.png" class="responsive-img center" />
+					<!-- Modal Trigger -->
+					<a class="circle one modal-trigger" href="#one"></a>
+					<!-- Modal -->
+					<div id="one" class="modal padding all-20">
+						<div class="modal-content">
+							<p class="h2-heading"><i class="material-icons right modal-close padding top-10">close</i>Underneath a Fence</p>
+							<p class="no-padding">Here the burglar will face thorns and foliage if they try to jump down a fence.</p>
+						</div>
+					</div>
+
+					<!-- Modal Trigger -->
+					<a class="circle two modal-trigger" href="#two"></a>
+					<!-- Modal -->
+					<div id="two" class="modal padding all-20">
+						<div class="modal-content">
+							<p class="h2-heading"><i class="material-icons right modal-close padding top-10">close</i>Underneath Window Sills</p>
+							<p class="no-padding">Here the burglar can't reach the window or open it because of barrier plants.</p>
+						</div>
+					</div>
+
+					<!-- Modal Trigger -->
+					<a class="circle three modal-trigger" href="#three"></a>
+					<!-- Modal -->
+					<div id="three" class="modal padding all-20">
+						<div class="modal-content">
+							<p class="h2-heading"><i class="material-icons right modal-close padding top-10">close</i>Watch Out!</p>
+							<p class="no-padding">Plants and trees that get too large and imposing could provide a burglar a place to hide.</p>
+						</div>
+					</div>
+
+					<!-- Modal Trigger -->
+					<a class="circle four modal-trigger" href="#four"></a>
+					<!-- Modal -->
+					<div id="four" class="modal padding all-20">
+						<div class="modal-content">
+							<p class="h2-heading"><i class="material-icons right modal-close padding top-10">close</i>Keep Your Yard Maintained</p>
+							<p class="no-padding">Your plants can't be proper crime fighters if they're unkempt. A messy or overgrown garden could send the wrong message to burglars: that you don't care about your home.</p>
+						</div>
+					</div>
+
+					<!-- Modal Trigger -->
+					<a class="circle five modal-trigger" href="#five"></a>
+					<!-- Modal -->
+					<div id="five" class="modal padding all-20">
+						<div class="modal-content">
+							<p class="h2-heading"><i class="material-icons right modal-close padding top-10">close</i>Be Careful</p>
+							<p class="no-padding">If you're working and maintaining your plants, wear the proper attire. This includes goggles, gloves, and other safety gear. The last thing you want is a thorn in the arm or eye.</p>
+						</div>
+					</div>
+
+					<!-- Modal Trigger -->
+					<a class="circle six modal-trigger" href="#six"></a>
+					<!-- Modal -->
+					<div id="six" class="modal padding all-20">
+						<div class="modal-content">
+							<p class="h2-heading"><i class="material-icons right modal-close padding top-10">close</i>Be Strategic</p>
+							<p class="no-padding">Shrubs and barriers should be placed in positions that will impact the burglars ability to succeed at their goals, but should not impede you or your guests. Planting along a path can help indicate to guests where they should walk.</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="row color-bg padding l-top-100 l-bottom-100 m-bottom-60 s-bottom-40">
+				<div class="col l6 offset-l3 m10 offset-m1 s10 offset-s1">
+					<p class="h2-heading">Have we planted any ideas yet?</p>
+					<p>Plants will prove to be one of your best accomplices for home security. And an added bonus, greenery is soothing to look at and actually <a href="http://www.mnn.com/health/fitness-well-being/stories/living-near-more-trees-means-fewer-antidepressants" target="_blank">improves mood and health.</a></p>
+					<p><span class="bold">Remember: </span>just because you have these plants doesn't mean you can neglect all other necessary home security needs. Still install an all-inclusive home security system, place signs and stickers that advertise your system, and make sure motion sensor lights are in dark places near the home so burglars can't be concealed by dark spots.</p>
+					<p class="h2-heading">Share and give others the gift of plant protection!</p>
+					<div class="sharethis-inline-share-buttons padding top-40"></div>
+				</div>
+			</div>
+			<div class="row padding l-top-100 l-bottom-100 m-top-60 m-bottom-60 s-top-40 s-bottom-40">
+				<div class="col l6 offset-l3 m10 offset-m1 s12">
+					<p class="h2-heading">Resources</p>
+					<p><a href="http://www.mnn.com/health/healthy-spaces/blogs/want-fight-crime-city-plant-tree" target="_blank">Want to fight crime in the city? Plant a tree | MNN </a></p>
+					<p><a href="http://www.cptedsecurity.com/cpted_fight_crime.htm" target="_blank">Fight Crime with Flower Power | CPTED Security</a></p>
+					<p><a href="http://www.telegraph.co.uk/news/newstopics/howaboutthat/9108641/The-30-plants-that-can-help-protect-your-home-against-burglary.html" target="_blank">The 30 plants that can help protect your home against burglary | The Telegraph </a></p>
+					<p><a href="https://thecrimepreventionwebsite.com/garden-boundaries-fences-and-defensive-plants/618/defensive-plants-shrubs-and-trees-shrub-fences/" target="_blank">Defensive plants, shrubs and trees | The Crime Prevention Website </a></p>
+					<p><a href="http://www.dailymail.co.uk/news/article-2107511/The-home-guard-Police-suggest-30-thorny-bushes-homeowners-plant-discourage-lazy-garden-thieves.html" target="_blank">The Home Guard: Police Suggest 30 Thorny Bushes Homeowners Could Plant to Discourage 'Lazy' Garden Thieves | Daily Mail</a></p>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+			$('.modal').modal({
+				dismissible: true, // Modal can be dismissed by clicking outside of the modal
+				opacity: 0, // Opacity of modal background
+				inDuration: 300, // Transition in duration
+				outDuration: 200, // Transition out duration
+				startingTop: '4%', // Starting top style attribute
+				endingTop: '25%', // Ending top style attribute
+			});
+			$('.carousel.carousel-slider').carousel({
+				fullWidth: true, //removing this option makes height get added to the top
+				onCycleTo : function($current_item, dragged) {
+					var imSize = $(".carousel-slider .carousel-item.active").children('.row').height();
+					console.log(imSize);
+					$(".carousel-slider").animate({
+						height: imSize+40,
+					})
+				}
+			});
+		});
+	</script>
+</html>
