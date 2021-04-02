@@ -1,0 +1,92 @@
+html {
+  height: 100%;
+}
+body {
+  font-familY: 'Roboto', Helvetica, sans-serif;
+  height: 100%;
+  background: linear-gradient(to bottom, #5800bf, #00e6e9);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.no-margin {
+  margin: 0;
+}
+.no-padding {
+  padding: 0;
+}
+.padding.all-10 {
+  padding: 10px;
+}
+.padding.all-20 {
+  padding: 20px;
+}
+.padding.all-40 {
+  padding: 40px;
+}
+.padding.top-20 {
+  padding-top: 20px;
+}
+.padding.top-40 {
+  padding-top: 40px;
+}
+.padding.top-60 {
+  padding-top: 60px;
+}
+.padding.top-80 {
+  padding-top: 80px;
+}
+.padding.bottom-20 {
+  padding-bottom: 20px;
+}
+.padding.bottom-40 {
+  padding-bottom: 40px;
+}
+.padding.bottom-60 {
+  padding-bottom: 60px;
+}
+.padding.bottom-80 {
+  padding-bottom: 80px;
+}
+.margin.all-10 {
+  margin: 10px;
+}
+.margin.all-20 {
+  margin: 20px;
+}
+.margin.all-40 {
+  margin: 40px;
+}
+.margin.top-10 {
+  margin-top: 10px;
+}
+.margin.top-20 {
+  margin-top: 20px;
+}
+.margin.top-40 {
+  margin-top: 40px;
+}
+.margin.top-60 {
+  margin-top: 60px;
+}
+.margin.top-80 {
+  margin-top: 80px;
+}
+.margin.bottom-20 {
+  margin-bottom: 20px;
+}
+.margin.bottom-40 {
+  margin-bottom: 40px;
+}
+.margin.bottom-60 {
+  margin-bottom: 60px;
+}
+.margin.bottom-80 {
+  margin-bottom: 80px;
+}
+#intro {
+  color: #ffffff;
+}
+#intro a {
+  color: #ffffff;
+  text-decoration: underline;
+}
